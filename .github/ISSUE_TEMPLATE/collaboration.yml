@@ -1,0 +1,28 @@
+name: 合作与交流
+description: 聊聊 AI 想法、产品需求或开源共建。
+title: "[合作交流] "
+body:
+  - type: markdown
+    attributes:
+      value: "欢迎！这是公开留言，请只填写愿意公开的信息。"
+  - type: textarea
+    id: introduction
+    attributes:
+      label: 你正在做什么？
+      description: 简单介绍你的方向或项目。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想一起解决什么问题？
+      description: 可以是一个想法、具体需求，或希望参与的项目。
+    validations:
+      required: true
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: 期待怎样合作？
+      description: 交流、共同开发、产品设计、测试反馈，或其他方式。
+    validations:
+      required: false
